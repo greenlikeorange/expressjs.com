@@ -9,7 +9,7 @@ html
         - active = 'api'
         include ../includes/header
       include ../includes/mixins
-      include ./en/api/menu
+      include ./my/api/menu
       #overlay
 
       #api-doc
@@ -20,23 +20,23 @@ html
         a(id='application').h2
         section
           h3(id='express') express()
-          include:md ./en/api/express.md
-        include ./en/api/app
+          include:md ./my/api/express.md
+        include ./my/api/app
 
         h2 Request
         a(id='request').h2
-        include ./en/api/req
+        include ./my/api/req
 
         h2 Response
         a(id='response').h2
-        include ./en/api/res
+        include ./my/api/res
 
         h2 Router
         a(id='router').h2
-        include ./en/api/router
+        include ./my/api/router
 
         h2 Middleware
         a(id='middleware').h2
-        include ./en/api/middleware
+        include ./my/api/middleware
 
     include ../includes/footer
